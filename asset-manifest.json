@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/XX-Farsight/static/css/main.fb455648.css",
-    "main.js": "/XX-Farsight/static/js/main.09a6963a.js",
+    "main.js": "/XX-Farsight/static/js/main.5d9dd538.js",
     "static/js/787.e058ae7c.chunk.js": "/XX-Farsight/static/js/787.e058ae7c.chunk.js",
     "static/media/Orbitron-Regular.ttf": "/XX-Farsight/static/media/Orbitron-Regular.23a1d6c3def1d738a011.ttf",
     "index.html": "/XX-Farsight/index.html",
     "main.fb455648.css.map": "/XX-Farsight/static/css/main.fb455648.css.map",
-    "main.09a6963a.js.map": "/XX-Farsight/static/js/main.09a6963a.js.map",
+    "main.5d9dd538.js.map": "/XX-Farsight/static/js/main.5d9dd538.js.map",
     "787.e058ae7c.chunk.js.map": "/XX-Farsight/static/js/787.e058ae7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb455648.css",
-    "static/js/main.09a6963a.js"
+    "static/js/main.5d9dd538.js"
   ]
 }
