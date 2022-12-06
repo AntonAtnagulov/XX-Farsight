@@ -49,9 +49,9 @@ export default class InitScene {
           );
 
         if (window.innerWidth > 420) {
-            camera.position.z = 170;
+            camera.position.z = 160;
         } else {
-            camera.position.z = 210
+            camera.position.z = 200
         }
         return camera
     }
@@ -63,6 +63,7 @@ export default class InitScene {
     initRenderer() {
         const renderer = new THREE.WebGLRenderer({antialias: true, alpha: true })
         renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(window.devicePixelRatio)
         document.body.appendChild(renderer.domElement);
         return renderer
     }

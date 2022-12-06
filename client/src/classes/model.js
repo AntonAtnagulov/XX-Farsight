@@ -2,15 +2,16 @@ import * as THREE from "three";
 import {STLLoader} from "../../node_modules/three/examples/jsm/loaders/STLLoader.js"
 
 export default class Model {
-    constructor(path, material, scale) {
+    constructor(path, material, scale, manager) {
         this.models = []
         this.material = material
         this.path = path
         this.scale = scale
+        this.manager = manager
     }
 
     initModel(scene) {
-        const loader = new STLLoader()
+        const loader = new STLLoader(this.manager)
         loader.load(
             this.path,
              (geometry) => {

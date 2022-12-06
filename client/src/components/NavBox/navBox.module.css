@@ -2,4 +2,10 @@
     position: absolute;
     bottom: 4%;
     right: 4%;
+    display: flex;
+    align-items: center;
+}
+
+.linkText {
+    color: #ffffff,
 }
