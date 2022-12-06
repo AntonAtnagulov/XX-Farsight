@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url('../public/fonts/Orbitron-Regular.ttf') format('truetype');
+  }
+
+body {
+    background: linear-gradient(#0a574f, #021210 );
+    font-family: 'MyFont';
+}
+
+.App {
+    text-align: center;
+}

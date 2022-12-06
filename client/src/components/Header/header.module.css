@@ -1,0 +1,12 @@
+.headerBox {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform:translate(-50%, 0%);
+}
+
+.name {
+    color: #ffffff;
+    font-size: 25px;
+    user-select: none;
+}
