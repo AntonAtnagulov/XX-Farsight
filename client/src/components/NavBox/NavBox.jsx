@@ -8,13 +8,12 @@ export default function NavBox() {
 
     return (
         <div onClick={linkHandler} className={style.logoBox}>
-                <span style={{color: '#ffffff'}} className={style.linkText}>get model</span>
-                <img
-                    src="./images/FableTableLogoSq.png"
-                    width={width}
-                    alt="logo"
-                ></img>
-                <div>TEST</div>
+            <span style={{ color: '#ffffff' }} className={style.linkText}>get model</span>
+            <img
+                src="./images/FableTableLogoSq.png"
+                width={width}
+                alt="logo"
+            ></img>
         </div>
     );
 }
